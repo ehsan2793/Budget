@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C1BCC8B2C798645008627E8 /* coreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1BCC8A2C798645008627E8 /* coreDataManager.swift */; };
 		7CA9D39C2C6EFE6B0013602E /* budgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA9D39B2C6EFE6B0013602E /* budgetApp.swift */; };
 		7CA9D39E2C6EFE6B0013602E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA9D39D2C6EFE6B0013602E /* ContentView.swift */; };
 		7CA9D3A02C6EFE6D0013602E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA9D39F2C6EFE6D0013602E /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C1BCC8A2C798645008627E8 /* coreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreDataManager.swift; sourceTree = "<group>"; };
 		7CA9D3982C6EFE6B0013602E /* budget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = budget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA9D39B2C6EFE6B0013602E /* budgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = budgetApp.swift; sourceTree = "<group>"; };
 		7CA9D39D2C6EFE6B0013602E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C1BCC892C798626008627E8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7C1BCC8A2C798645008627E8 /* coreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		7CA9D38F2C6EFE6B0013602E = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 		7CA9D39A2C6EFE6B0013602E /* budget */ = {
 			isa = PBXGroup;
 			children = (
+				7C1BCC892C798626008627E8 /* Managers */,
 				7CA9D3B22C6F02DF0013602E /* Models */,
 				7CA9D39B2C6EFE6B0013602E /* budgetApp.swift */,
 				7CA9D39D2C6EFE6B0013602E /* ContentView.swift */,
@@ -160,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CA9D3B12C6EFF440013602E /* BudgetModel.xcdatamodeld in Sources */,
+				7C1BCC8B2C798645008627E8 /* coreDataManager.swift in Sources */,
 				7CA9D39E2C6EFE6B0013602E /* ContentView.swift in Sources */,
 				7CA9D39C2C6EFE6B0013602E /* budgetApp.swift in Sources */,
 				7CA9D3B52C6F03150013602E /* BudgetCategory+CoreDataClass.swift in Sources */,
