@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C17F97E2C7BFEC10086AC29 /* BudgetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C17F97D2C7BFEC10086AC29 /* BudgetListView.swift */; };
 		7C1BCC8B2C798645008627E8 /* coreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1BCC8A2C798645008627E8 /* coreDataManager.swift */; };
 		7C2480752C7A7E3F000C820A /* AddBudgetCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2480742C7A7E3F000C820A /* AddBudgetCategoryView.swift */; };
 		7C2480782C7AAA4C000C820A /* NumberFormater+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2480772C7AAA4C000C820A /* NumberFormater+Extention.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C17F97D2C7BFEC10086AC29 /* BudgetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetListView.swift; sourceTree = "<group>"; };
 		7C1BCC8A2C798645008627E8 /* coreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreDataManager.swift; sourceTree = "<group>"; };
 		7C2480742C7A7E3F000C820A /* AddBudgetCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetCategoryView.swift; sourceTree = "<group>"; };
 		7C2480772C7AAA4C000C820A /* NumberFormater+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormater+Extention.swift"; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				7C2480742C7A7E3F000C820A /* AddBudgetCategoryView.swift */,
+				7C17F97D2C7BFEC10086AC29 /* BudgetListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CA9D3B12C6EFF440013602E /* BudgetModel.xcdatamodeld in Sources */,
+				7C17F97E2C7BFEC10086AC29 /* BudgetListView.swift in Sources */,
 				7C1BCC8B2C798645008627E8 /* coreDataManager.swift in Sources */,
 				7CA9D39E2C6EFE6B0013602E /* ContentView.swift in Sources */,
 				7C2480752C7A7E3F000C820A /* AddBudgetCategoryView.swift in Sources */,

@@ -13,19 +13,27 @@ struct ContentView: View {
 
     @State private var isPresented: Bool = false
 
+
     // MARK: - ENVIRONMENT PROPERTIES
 
     @FetchRequest(sortDescriptors: []) private var budgetCategoryResults: FetchedResults<BudgetCategory>
     @Environment(\.managedObjectContext) private var viewContext
 
+    // MARK: - COMPUTED PROPERTIES
+    
+    var total: Double {
+        budgetCategoryResults.reduce(0) { result, budgetCategory in
+            return result + budgetCategory.total
+        }
+    }
     // MARK: - BODY
 
     var body: some View {
         NavigationStack {
             VStack {
-                List(budgetCategoryResults) { budgetcategory in
-                    Text(budgetcategory.title ?? "")
-                }
+                Text(total as NSNumber, formatter: NumberFormatter.currency)
+                    .fontWeight(.bold)
+                BudgetListView(budgetCategoryResults: budgetCategoryResults)
             }
             .sheet(isPresented: $isPresented) {
                 AddBudgetCategoryView()
